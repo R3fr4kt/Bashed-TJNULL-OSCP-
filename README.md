@@ -162,6 +162,3 @@ root
 2. **Secure the Automation Pipeline:** Scripts executed by high-privileged cron jobs or automated system tasks should never be writable by lower-privileged users or group owners. Enforce strict `chown root:root` configurations on all automated execution assets.
 3. **Restrict Sudo Impersonation Scope:** Granting `NOPASSWD: ALL` for a service account over another user creates wide security blind spots. Sudo permissions should be severely limited to specific commands rather than broad user context changes.
 
-```</YOUR_PORT_2></YOUR_TUN0_IP></YOUR_PORT_2></YOUR_PORT_1></YOUR_TUN0_IP></YOUR_PORT_1>
-
-```
